@@ -1,0 +1,17 @@
+server:
+  port: 8000
+box:
+  server:
+    ip: 10.88.10.50
+    port: 8000
+  rate: 2000   #ms
+  resource:
+    storage:
+      dir: /app/data/storage
+lamp:
+  close:
+    url: http://10.88.10.120:8080/msService/public/SESECOMonitor/itemSpot/itemSpot/closeLamp
+  open:
+    url: http://10.88.10.120:8080/msService/public/SESECOMonitor/itemSpot/itemSpot/openLamp
+
+
